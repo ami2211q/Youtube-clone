@@ -76,8 +76,19 @@
     cursor: pointer;
 }
 .video-title{
-    font-weight: bold;
+    display: -webkit-box;       /* Use flexbox model for truncating */
+    -webkit-line-clamp: 2;      /* Limit text to 2 lines */
+    -webkit-box-orient: vertical; /* Set the box to a vertical orientation */
+    width: 250px;              /* Set the width of the container */
+    overflow: hidden;           /* Hide the overflow content */
+    text-overflow: ellipsis;    /* Optional: Add '...' for indication */
+    font-size: 15px;            /* Optional: text size */
+    line-height: 1.5em;         /* Optional: control the spacing between lines */
+    height: 3em;                /* Set height based on line-height for 2 lines */
     cursor: pointer;
+    font-weight: bold;
+    
+    
 }
 .channel-name{
     font-size: 14px;
