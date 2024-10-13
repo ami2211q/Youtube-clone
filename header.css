@@ -25,6 +25,12 @@
     margin-left: 10px;
     cursor: pointer;
 }
+.youtube-in{
+    font-size: 9.5px;
+    color: rgb(78, 76, 76);
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
 .ion-hamburger{
     height: 40px;
     width: 40px;
@@ -53,24 +59,24 @@
     width: 50%;
     padding-left: 20px;
     border: 1px solid rgb(114, 114, 117);
+    z-index: 1;
 }
-.search-box:active{
-    border: 0.5px solid rgb(0, 0, 255);
-}
-.ion-search{
+.ion-search-button{
     height: 40px;
     width: 80px;
     margin-left: -11px; 
     padding-top: 5px;
-    padding-bottom: 5px; 
-    border: 1px solid rgb(114, 114, 117); 
-    background-color:#f8f9f8fd;
+    padding-bottom: 5px;  
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     cursor: pointer;
     transition: 0.15s;
+    border: solid 1px gray;
 } 
-.ion-search:hover{ 
+.ion-search{
+    height: 30px;
+}
+.ion-search-button:hover{ 
     background-color:  rgb(236, 232, 232);
 }
 
@@ -108,4 +114,18 @@
 .ioc-notifications{
     height: 25px;
     cursor: pointer;
+}
+.notifications-div{
+    display: flex;
+    position: relative;
+}
+.notifications-number{
+    display: flex;
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    padding: 1.5px 3px;
+    border-radius: 8px;
+    position: absolute;
+    margin: 0px 0px 2px 13px;
 }

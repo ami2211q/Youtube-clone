@@ -50,7 +50,7 @@
     padding: 2px;
     border-radius: 4px;
     bottom: 8px;
-    right: 5px;
+    right: 8px;
     color: white;
     font-weight: normal;
 }
@@ -75,6 +75,10 @@
     height: 100%;
     cursor: pointer;
 }
+.video-option-title{
+    display: flex;
+    justify-content: space-between;
+}
 .video-title{
     display: -webkit-box;       /* Use flexbox model for truncating */
     -webkit-line-clamp: 2;      /* Limit text to 2 lines */
@@ -86,10 +90,16 @@
     line-height: 1.5em;         /* Optional: control the spacing between lines */
     height: 3em;                /* Set height based on line-height for 2 lines */
     cursor: pointer;
-    font-weight: bold;
-    
-    
+    font-weight: bold;   
 }
+.more-option{
+    display: flex;
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
 .channel-name{
     font-size: 14px;
     color:gray;
