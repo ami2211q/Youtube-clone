@@ -25,9 +25,9 @@
     flex-direction: row;
 }
 .profile-img{
-    height: 36px;
-    width: 36px;
-    border-radius: 18px;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
     object-fit: cover;
     object-position: center;
     cursor: pointer;
